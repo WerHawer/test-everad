@@ -238,7 +238,7 @@
 (min-resolution: 192dpi) {
     .header {
         background-image: url(../img/bgr@2X.jpeg);
-        background-size: contain;
+        background-size: cover;
     }
     .header__main-img {
         background-image: url(../img/main_img@x2.png);

@@ -996,7 +996,6 @@ html {
 .how__container {
     margin: 0 auto;
     display: flex;
-    /* min-height: 500px; */
     width: 100%;
 }
 
