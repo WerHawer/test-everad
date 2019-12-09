@@ -233,3 +233,39 @@
         font-size: 16px;
     }
 }
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .header {
+        background-image: url(../img/bgr@2X.jpeg);
+        background-size: contain;
+    }
+    .header__main-img {
+        background-image: url(../img/main_img@x2.png);
+        background-size: contain;
+    }
+    .result_img--alergy {
+        background-image: url(../img/alergy@2x.jpg);
+    }
+    .result_img--finger {
+        background-image: url(../img/finger@2x.jpg);
+    }
+    .result_img--organs {
+        background-image: url(../img/organs@2x.jpg);
+    }
+    .infection__stat::before {
+        background-image: url(../img/ico/diagramma@2x.png);
+    }
+    .why-we__elements--mikotcin::after {
+        background-image: url(../img/ico/tablet@2X.png);
+        background-size: 80px 56px;
+    }
+    .why-we__elements--natural::after {
+        background-image: url(../img/ico/natural@2X.png);
+        background-size: contain;
+    }
+    .why-we__elements--cream::after {
+        background-image: url(../img/ico/cream@2X.png);
+        background-size: contain;
+    }
+}

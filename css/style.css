@@ -504,6 +504,7 @@ html {
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     margin-right: 20px;
 }
 
@@ -624,6 +625,7 @@ html {
     background-image: url(../img/ico/diagramma.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 
 .stat__description {
